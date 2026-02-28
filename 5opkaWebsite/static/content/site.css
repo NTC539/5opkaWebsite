@@ -101,6 +101,11 @@ input[type="checkbox"].input-validation-error {
     opacity: 1;
     text-align: left;
 }
+
+
+
+
+
                        /*—“»À» “¿…ÃÀ¿…Õ¿*/
 .timeline {
     position: relative;
@@ -146,19 +151,9 @@ input[type="checkbox"].input-validation-error {
     border-color: #c084fc;
 }
 
-.age {
-    color: #e9d5ff;
-    font-size: 0.75rem;
-    font-weight: 600;
-}
-
-.timeline-point.active .age {
-    color: white;
-}
-
 .point-label {
     text-align: center;
-    color: #e9d5ff;
+    color: #000000;
 }
 
 .timeline-point.active .point-label {
