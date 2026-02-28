@@ -14,22 +14,42 @@ def home():
         year=datetime.now().year
     )
 
-@route('/contact')
-@view('contact')
+@route('/career')
+@view('career')
 def contact():
-    """Renders the contact page."""
+    """Renders the career page."""
     return dict(
         title='Contact',
         message='Your contact page.',
         year=datetime.now().year
     )
 
-@route('/about')
-@view('about')
+@route('/news')
+@view('news')
 def about():
-    """Renders the about page."""
+    """Renders the news page."""
     return dict(
-        title='About',
+        title='News',
+        message='Your application description page.',
+        year=datetime.now().year
+    )
+
+@route('/music')
+@view('music')
+def about():
+    """Renders the music page."""
+    return dict(
+        title='Music',
+        message='Your application description page.',
+        year=datetime.now().year
+    )
+
+@route('/galery')
+@view('galery')
+def about():
+    """Renders the galery page."""
+    return dict(
+        title='Galery',
         message='Your application description page.',
         year=datetime.now().year
     )
