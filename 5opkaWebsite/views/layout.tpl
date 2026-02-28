@@ -9,17 +9,15 @@
 </head>
 
 <body>
-    <div>
+    <div class="navbar-layout">
         <div>
-            <div class="navbar-layout">
-                <ul class="navbar navbar-button-list">
-                    <li><a href="/home">Главная</a></li>
-                    <li><a href="/news">Новости</a></li>
-                    <li><a href="/career">Карьера</a></li>
-                    <li><a href="/music">Музыка</a></li>
-                    <li><a href="/galery">Галерея</a></li>
-                </ul>
-            </div>
+            <ul class="navbar navbar-button-list">
+                <li><a href="/home">Главная</a></li>
+                <li><a href="/news">Новости</a></li>
+                <li><a href="/career">Карьера</a></li>
+                <li><a href="/music">Музыка</a></li>
+                <li><a href="/galery">Галерея</a></li>
+            </ul>
         </div>
     </div>
 

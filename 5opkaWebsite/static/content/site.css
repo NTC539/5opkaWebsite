@@ -47,20 +47,24 @@ input[type="checkbox"].input-validation-error {
 
                                                         /*НАШИ СТИЛИ*/
 
+                                                        /*СТИЛИ Layout.ptl*/
 .navbar-layout {
     height: 103px;
     background-color: #E0F0D0; /* Цвет фона */
     display: flex; /* Включаем Flexbox */
     flex-direction: row; /* Элементы в строку (это значение по умолчанию) */
     justify-content: center;
-    align-items: baseline;
+    align-items: center;
     gap: 10px; /* Отступы между элементами (необязательно) */
     padding: 10px; /* Внутренние отступы */
 }
 
+.navbar-layout > div {
+     background-color: rgba(0, 0, 0, 0.05);
+     padding: 24px 40px;
+}
+
 .navbar.navbar-button-list {
-    background: #000000;
-    opacity: 0.05;
     display: flex; /* включает Flexbox */
     list-style: none; /* убирает маркеры списка */
     margin: 0;
@@ -72,7 +76,7 @@ input[type="checkbox"].input-validation-error {
 .navbar-button-list > li > a {
     font-size: 16pt;
     text-decoration: none; /* убирает подчёркивание */
-    color: inherit; /* наследует цвет текста (обычно чёрный) */
+    color: black; /* наследует цвет текста (обычно чёрный) */
     padding: 5px 10px; /* добавляет отступы для удобного нажатия */
     display: inline-block; /* чтобы padding работал */
 }
