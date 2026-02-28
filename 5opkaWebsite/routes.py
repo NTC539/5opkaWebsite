@@ -33,7 +33,7 @@ def home():
 def career():
     """Страница карьеры с последним годом по умолчанию"""
     # Загружаем шаблон для последнего года
-    year_template = template(last_year)
+    year_template = template("career/" + last_year)
     return dict(
                    title='Career',
                    year=datetime.now().year,
@@ -42,12 +42,12 @@ def career():
                    year_content=year_template)
 
 @route('/career/<year>')
-@view('<year>')
+@view('/career/<year>')
 def career_year(year):
     """Страница карьеры с выбранным годом"""
     if year in timeline_data:
         # Загружаем шаблон для выбранного года
-        year_template = template(year)
+        year_template = template("career/" + year)
         return template('career',
                        title='Career',
                        year=datetime.now().year,
@@ -56,7 +56,7 @@ def career_year(year):
                        year_content=year_template)
     else:
         # Если год не найден, показываем последний
-        year_template = template(last_year)
+        year_template = template("career/" + last_year)
         return template('career',
                        title='Career',
                        year=datetime.now().year,

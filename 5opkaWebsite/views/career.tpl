@@ -22,11 +22,11 @@
                 % for year, data in timeline_data.items():
                     <a href="/career/{{year}}" class="timeline-point {{'active' if year == selected_year else ''}}">
                         <div class="point-circle">
-                            <span class="age">{{data['age']}}</span>
+                            <span class="regular-text age">{{data['age']}}</span>
                         </div>
                         <div class="point-label">
-                            <div class="year">{{year}}</div>
-                            <div class="title">{{data['title']}}</div>
+                            <div class="regular-text year">{{year}}</div>
+                            <div class="regular-text title">{{data['title']}}</div>
                         </div>
                     </a>
                 % end
