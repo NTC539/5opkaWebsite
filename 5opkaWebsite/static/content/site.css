@@ -292,3 +292,22 @@ input[type="checkbox"].input-validation-error {
 .read-more:hover {
     background-color: #c8e0b5;
 }
+
+/* Секция с краткой информацией */
+.about-preview {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 40px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text .regular-text {
+    margin-bottom: 25px;
+    font-size: 18px;
+}
