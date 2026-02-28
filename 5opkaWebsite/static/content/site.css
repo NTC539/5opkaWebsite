@@ -180,3 +180,15 @@ input[type="checkbox"].input-validation-error {
     padding: 60px 40px;
     gap: 40px;
 }
+
+.hero-image {
+    flex: 1;
+    max-width: 50%;
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
