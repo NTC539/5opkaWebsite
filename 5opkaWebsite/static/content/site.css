@@ -260,3 +260,35 @@ input[type="checkbox"].input-validation-error {
 .news-card-content {
     padding: 20px;
 }
+
+.news-card-date {
+    display: block;
+    color: rgba(0,0,0,0.4);
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.news-card-title {
+    margin: 0 0 10px 0;
+    font-size: 20px;
+}
+
+.news-card-excerpt {
+    margin: 0 0 20px 0;
+    line-height: 1.5;
+}
+
+.read-more {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #E0F0D0;
+    color: #333;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.read-more:hover {
+    background-color: #c8e0b5;
+}
