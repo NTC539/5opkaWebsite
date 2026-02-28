@@ -217,3 +217,17 @@ input[type="checkbox"].input-validation-error {
     color: #333;
     font-style: italic;
 }
+
+/* Секция с последними новостями */
+.latest-news {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #F9F9F9;
+}
+
+.section-title {
+    margin-bottom: 40px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #E0F0D0;
+}
