@@ -38,10 +38,12 @@
     <Folder Include="static\fonts\" />
     <Folder Include="static\images\" />
     <Folder Include="static\images\homePage\" />
+    <Folder Include="static\images\musicPage\" />
     <Folder Include="static\images\newsPage\" />
     <Folder Include="static\scripts\" />
     <Folder Include="views\" />
     <Folder Include="views\career\" />
+    <Folder Include="views\music\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="requirements.txt" />
@@ -54,6 +56,12 @@
     <Content Include="static\images\homePage\homeRowImage1.png" />
     <Content Include="static\images\homePage\homeRowImage2.png" />
     <Content Include="static\images\homePage\homeRowImage3.png" />
+    <Content Include="static\images\musicPage\1000zhizneyImage.png" />
+    <Content Include="static\images\musicPage\42Image.png" />
+    <Content Include="static\images\musicPage\golovolomkaImage.jpg" />
+    <Content Include="static\images\musicPage\slavaBossuImage.jpg" />
+    <Content Include="static\images\musicPage\venomBoyImage.png" />
+    <Content Include="static\images\musicPage\zhmiShareImage.png" />
     <Content Include="static\images\newsPage\placeholder132x132.png" />
     <Content Include="static\scripts\bootstrap.js" />
     <Content Include="static\scripts\bootstrap.min.js" />
@@ -78,6 +86,11 @@
     <Content Include="views\career\2025.tpl" />
     <Content Include="views\galery.tpl" />
     <Content Include="views\music.tpl" />
+    <Content Include="views\music\empty.tpl" />
+    <Content Include="views\music\1000zhizney.tpl" />
+    <Content Include="views\music\venomBoy.tpl" />
+    <Content Include="views\music\42.tpl" />
+    <Content Include="views\music\zmiShare.tpl" />
     <Content Include="views\news.tpl" />
     <Content Include="views\career.tpl" />
     <Content Include="views\index.tpl" />
