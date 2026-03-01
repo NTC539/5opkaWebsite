@@ -84,7 +84,7 @@ def galery():
         year=datetime.now().year
     )
 
-track_list = ['empty', 'zmiShare', '42', 'venomBoy', '1000zhizney']
+track_list = ['empty', 'zmiShare', '42', 'venomBoy', '1000zhizney', 'slavaBossu', 'golovolomka']
 default_track = track_list[0]
 
 @route('/music')

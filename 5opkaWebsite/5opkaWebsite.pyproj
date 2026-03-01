@@ -86,6 +86,8 @@
     <Content Include="views\career\2025.tpl" />
     <Content Include="views\galery.tpl" />
     <Content Include="views\music.tpl" />
+    <Content Include="views\music\golovolomka.tpl" />
+    <Content Include="views\music\slavaBossu.tpl" />
     <Content Include="views\music\empty.tpl" />
     <Content Include="views\music\1000zhizney.tpl" />
     <Content Include="views\music\venomBoy.tpl" />

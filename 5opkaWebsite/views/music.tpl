@@ -23,12 +23,12 @@
 			<p class="heading-text">1000 жизней</p>
 			<p class="regular-text">5opka</p>			
 		</a>
-		<a href="/music/1000zhizney" class="music-card {{'active' if selected_track == '1000zhizney' else ''}}">
+		<a href="/music/slavaBossu" class="music-card {{'active' if selected_track == 'slavaBossu' else ''}}">
 			<img src="/static/images/musicPage/slavaBossuImage.jpg"/>
 			<p class="heading-text">Слава боссу</p>
 			<p class="regular-text">5opka</p>			
 		</a>
-		<a href="/music/1000zhizney" class="music-card {{'active' if selected_track == '1000zhizney' else ''}}">
+		<a href="/music/golovolomka" class="music-card {{'active' if selected_track == 'golovolomka' else ''}}">
 			<img src="/static/images/musicPage/golovolomkaImage.jpg"/>
 			<p class="heading-text">Головоломка</p>
 			<p class="regular-text">5opka</p>			
