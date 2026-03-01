@@ -46,13 +46,6 @@
 		Не зевай, давай делай погромче свой микшер (Ха)
 		T-shirt купи! С плакатом подпишут
 		Когда в твоём городе Пятёрка и Миллшер (Пау-пау)
-		You might also like
-		Жми Share (YouTube Version)
-		5opka & MellSher
-		MARTINE ROSE
-		madk1d, greyrock & tewiq
-		Хайп (Hype)
-		5opka
 		[Куплет 2: 5opka & MellSher]
 		Полчаса сна лицом на стекле минивэна
 		Если бы знал, что будет так, не поехал б, наверное
