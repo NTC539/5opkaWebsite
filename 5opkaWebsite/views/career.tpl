@@ -17,12 +17,13 @@ window.addEventListener('load', function() {
     }
 });
 </script>
-
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" type="text/css" href="/static/content/career.css" />
 <div class="container">
     <!-- Шапка -->
     <header class="header">
         <h1 class="heading-text">Кирилл "5opka" Баранов</h1>
-        <p class="regular-text subtitle">Minecraft-стример, мем-лорд, создатель "42-братух"</p>
+        <p class="regular-text subtitle">Minecraft-стример, двухкратный "Человек мем года", министр хайпа РФ, создатель "42-братух"</p>
     </header>
 
     <!-- Таймлайн -->

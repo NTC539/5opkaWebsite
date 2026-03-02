@@ -1,0 +1,211 @@
+/*СТИЛИ ТАЙМЛАЙНА*/
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+    flex: 1;
+}
+
+/* Шапка страницы карьеры */
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+}
+
+    .header h1 {
+        font-size: 2.5em;
+        margin-bottom: 10px;
+        color: #333;
+    }
+
+.subtitle {
+    font-size: 1.2em;
+    color: #666;
+}
+
+/* Контейнер для таймлайна */
+.nav-container {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.nav-header {
+    margin-bottom: 30px;
+}
+
+    .nav-header h2 {
+        color: #333;
+        font-size: 1.8em;
+        margin: 0;
+    }
+
+/* Таймлайн */
+.timeline {
+    position: relative;
+    margin: 30px 0;
+    padding: 10px 0;
+}
+
+.timeline-line {
+    position: absolute;
+    top: 2rem;
+    left: 0px;
+    right: 0px;
+    height: 2px;
+    background-color: #ccc;
+}
+
+.timeline-points {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px;
+}
+
+.timeline-point {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+}
+
+.point-circle {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: 2px solid #999;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+    z-index: 2;
+    color: #333;
+}
+
+.timeline-point.active .point-circle {
+    background-color: var(--main-color);
+    border-color: #2c3e50;
+}
+
+.point-label {
+    text-align: center;
+}
+
+.timeline-point.active .point-label {
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+.year {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #333;
+    text-align: center;
+}
+
+.title {
+    font-size: 0.9em;
+    color: #666;
+    text-align: center;
+}
+
+.timeline-point.active .title {
+    color: #2c3e50;
+}
+
+.age {
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Контент года */
+.year-content {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+    .year-content h2 {
+        color: #333;
+        margin-bottom: 20px;
+        font-size: 2em;
+        border-bottom: 2px solid var(--main-color);
+        padding-bottom: 10px;
+    }
+
+    .year-content p {
+        color: #666;
+        line-height: 1.8;
+        font-size: 1.1em;
+        margin-bottom: 15px;
+    }
+
+.media-block {
+    display: flex;
+    gap: 30px;
+    margin: 30px 0;
+    align-items: center; /* выравнивание по центру по вертикали */
+}
+
+.media-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+    border: 1px solid var(--main-color);
+    flex-shrink: 0; /* изображение не сжимается */
+    width: 400px; /* фиксированная ширина для десктопов, можно подобрать */
+}
+
+
+.media-text {
+    flex: 1; /* текст занимает оставшееся пространство */
+}
+
+    .media-text p {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+.media-left .media-image {
+    margin-right: 0; /* gap уже задаёт отступ */
+}
+
+.media-right .media-image {
+    margin-left: 0;
+}
+
+.quote {
+    margin: 30px 0 30px 20px;
+    padding: 15px 20px;
+    border-left: 4px solid var(--main-color);
+    background-color: rgba(224, 240, 208, 0.15);
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.7);
+    border-radius: 0 8px 8px 0;
+    font-size: 1.05em;
+}
+
+    .quote::before {
+        content: "\"";
+        font-size: 1.5em;
+        color: var(--main-color);
+        margin-right: 5px;
+        font-style: normal;
+    }
+
+    .quote::after {
+        content: "\"";
+        font-size: 1.5em;
+        color: var(--main-color);
+        margin-left: 5px;
+        font-style: normal;
+    }
